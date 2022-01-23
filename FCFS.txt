@@ -1,0 +1,26 @@
+AIM: To write a c program to simulate the CPU scheduling algorithm First Come First
+Serve (FCFS)
+
+
+DESCRIPTION:
+To calculate the average waiting time using the FCFS algorithm first the waiting time of the first process is kept zero and the waiting time of the second process is the burst time of the first process and the waiting time of the third process is the sum of the burst times of the first and the second process and so on. After calculating all the waiting times the average waiting time is calculated as the average of all the waiting times. FCFS mainly says first come first serve the algorithm which came first will be served first.
+
+
+ALGORITHM:
+Step 1: Start the process
+
+Step 2: Accept the number of processes in the ready Queue
+
+Step 3: For each process in the ready Q, assign the process name and the burst time 
+
+Step 4: Set the waiting of the first process as ‗0‘and its burst time as its turnaround time 
+
+Step 5: for each process in the Ready Q calculate
+a). Waiting time (n) = waiting time (n-1) + Burst time (n-1) b).
+Turnaround time (n)= waiting time(n)+Burst time(n)
+
+Step 6: Calculate
+a) Average waiting time = Total waiting Time / Number of process
+b) Average Turnaround time = Total Turnaround Time / Number of process
+
+Step 7: Stop the process
